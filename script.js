@@ -6,7 +6,7 @@ let verbs = ["Survive", "Die", "Vanishing", "Vanished", "Vanish", "Remember", "F
 
 let image = ['coast.jpg', 'fog.jpg', 'hallway.jpg', 'rain.jpg', 'road.jpg', 'snow.jpg'];
 
-let textColors = ['white', 'red', 'greenyellow', 'magenta'];
+let textColors = ['white', 'rgb(245, 58, 58)', 'greenyellow', 'magenta'];
 
 let randomTitle = Math.floor(Math.random()*8);
 
