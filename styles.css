@@ -1,7 +1,7 @@
 #book-cover{
     width: 500px;
-    height: 700px;
-    border: 1px solid black;
+    height: 675px;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,9 +13,35 @@
     font-size: 100px;
     align-items: center;
     line-height: 1em;
+    padding:10px;
 
     position: relative;
-    left: calc(50vw - 250px);
+    left: calc(50vw - 260px);
+
+    background-size:cover;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+#title-text{
+    text-shadow: 1px 1px 20px black;
+}
+
+#randomize-button{
+    width: 100px;
+    height:50px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+    left:10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    cursor:pointer;
+
+    font-family: "elza-condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 @media (max-width: 450px){
@@ -23,5 +49,12 @@
         width: 90vw;
         height: 95vh;
         left: 2.5vw;
+        padding: 1vw;
+        font-size: 75px;
+    }
+
+    #randomize-button{
+        top:10px;
+        display:none;
     }
 }
