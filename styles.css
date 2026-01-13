@@ -19,7 +19,7 @@
     left: calc(50vw - 260px);
 
     background-size:cover;
-    filter: drop-shadow(0 0 0.75rem black);
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.882));
 }
 
 #title-text{
@@ -39,15 +39,16 @@
     text-align: center;
     cursor:pointer;
 
-    font-family: "elza-condensed", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: monospace;
+    border-radius: 10px;
+    /* font-weight: 500;
+    font-style: normal; */
 }
 
 @media (max-width: 450px){
     #book-cover{
         width: 90vw;
-        height: 95vh;
+        height: 85vh;
         left: 2.5vw;
         padding: 1vw;
         font-size: 75px;
